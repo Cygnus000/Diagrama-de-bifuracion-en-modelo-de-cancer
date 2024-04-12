@@ -10,7 +10,7 @@ def cancer_system(x, y, z, a, b=2.5, c=0.6, d=1.5, e=4.5, f=1, g=0.2, h=0.5):
     return x_dot, y_dot, z_dot
 
 da = 0.0001#0.001  # tamaño de paso
-a = np.arange(0.85, 0.90, da)  # rango de variacion  0.85 max 1.05
+a = np.arange(0.85, 1.05, da)  # rango de variacion  0.85 max 1.05
 dt = 0.001  # paso de tiempo
 t = np.arange(0, 250, dt)# 100, dt)  # rango temporal
 
@@ -152,7 +152,7 @@ plt.show()
 plt.clf()
 # Z
 plt.scatter(az_maxes, z_maxes, color="black", s=0.8, alpha=0.2)
-plt.scatter(ay_mins, z_mins, color="red", s=0.8, alpha=0.2)
+plt.scatter(az_mins, z_mins, color="red", s=0.8, alpha=0.2)
 plt.legend(['$max(z(t))$','$min(z(t))$'], loc="best") 
 #plt.xlim(0.85, 1.1)
 #plt.ylim(0, 1)
