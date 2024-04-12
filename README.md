@@ -9,4 +9,6 @@ Dado un sistema de ecuaciones no lineales se integra numericamente y se calculan
 ```
 Este sistema es el mostrado en Itik, M., & Banks, S. P. (2010). Chaos in a three-dimensional cancer model. International Journal of Bifurcation and Chaos, 20(01), 71-79. https://doi.org/10.1142/S0218127410025417
 
-![Mapa de Bifurcacion](https://github.com/Cygnus000/Mapa-de-bifuracion-en-modelo-de-cancer/blob/main/bifurcation_Y-max_vs_a_0_.png)
+![Mapa de Bifurcacion en X](https://github.com/Cygnus000/Mapa-de-bifuracion-en-modelo-de-cancer/blob/main/bifurcation_X_vs_a.png)
+![Mapa de Bifurcacion en Y](https://github.com/Cygnus000/Mapa-de-bifuracion-en-modelo-de-cancer/blob/main/bifurcation_Y_vs_a.png)
+![Mapa de Bifurcacion en Z](https://github.com/Cygnus000/Mapa-de-bifuracion-en-modelo-de-cancer/blob/main/bifurcation_Z_vs_a.png)
