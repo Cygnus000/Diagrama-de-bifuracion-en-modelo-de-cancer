@@ -1,0 +1,24 @@
+set terminal epslatex #pngcairo size 1200,750 enhanced font 'Verdana,23'
+set output 'bifurcacionX_C.tex'
+set title "Diagrama de bifurcación del modelo de Cáncer"
+set key right center
+set xlabel "Parametro c"
+set ylabel "x(t)"
+set grid
+plot 1/0 w p lt 1 lw 10 title "máx(x(t))","Bif_X_vs_c_max.dat" w d lt 1 lw 4 notitle, 1/0 w d lt 6 lw 15 title "mín(x(t))","Bif_X_vs_c_min.dat" w d lt 6 lw 4 notitle 
+
+set output 'bifurcacionY_C.tex'
+set title "Diagrama de bifurcación del modelo de Cáncer"
+set key right center
+set xlabel "Parametro c"
+set ylabel "y(t)"
+set grid
+plot 1/0 w p lt 1 lw 10 title "máx(y(t))","Bif_Y_vs_c_max.dat" w d lt 1 lw 4 notitle, 1/0 w d lt 6 lw 15 title "mín(y(t))","Bif_Y_vs_c_min.dat" w d lt 6 lw 4 notitle
+
+set output 'bifurcacionZ_C.tex'
+set title "Diagrama de bifurcación del modelo de Cáncer"
+set key right center
+set xlabel "Parametro c"
+set ylabel "z(t)"
+set grid
+plot 1/0 w p lt 1 lw 10 title "máx(z(t))","Bif_Z_vs_c_max.dat" w d lt 1 lw 4 notitle, 1/0 w d lt 6 lw 15 title "mín(z(t))","Bif_Z_vs_c_min.dat" w d lt 6 lw 4 notitle
